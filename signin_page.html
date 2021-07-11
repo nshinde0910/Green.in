@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="signin_page.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+
+<body>
+    <div id="div1">
+        <h1>Welcome to <span>Green.in</span></h1>
+        <h2>Sign in to continue</h2>
+    </div>
+    <div id="div2">
+        <form id="form" action="http://127.0.0.1:5500/Landing_page.html#top-products">
+            <label for="name" id="name-label">Enter your Name</label><br>
+            <input type="text" id="name" required><br>
+
+            <label for="number" id="number-label">Mobile Number</label><br>
+            <input type="number" id="number" maxlength="10" minlength="10" required><br>
+
+            <label for="password" id="password-label">Password</label><br>
+            <input type="password" id="password" required><br>
+            <input type="checkbox" onclick="myFunction()">Show Password <br>
+
+            <label for="re-password" id="re-password-label">Re-enter Password for confirmation</label><br>
+            <input type="password" id="re-password" required><br>
+
+            <input type="submit" id="submit">
+        </form>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

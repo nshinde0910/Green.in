@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    color: rgb(253, 251, 249);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#div1 {
+    padding-top: 50px;
+}
+
+#div2 {
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(253, 251, 249);
+}
+
+span {
+    text-align: center;
+    color: rgb(34, 220, 34);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    border-style: solid;
+    border-radius: 10px;
+    padding: 30px 0px 30px 0px;
+    margin: 0px 500px 0px 500px;
+}
+
+#name-label {
+    
+    padding-right: 20ex;
+}
+
+#name {
+    
+    height: 20px;
+    width: 320px;
+}
+
+#number-label {
+    
+    padding-right: 20ex;
+}
+
+#number {
+    
+    height: 20px;
+    width: 320px;
+}
+
+#password-label {
+
+    padding-right: 25ex;
+}
+
+#password {
+    
+    height: 20px;
+    width: 320px;
+}
+
+#re-password-label {
+    
+    padding-right: 0ex;
+}
+
+#re-password {
+    
+    height: 20px;
+    width: 320px;
+}
+
+#submit {
+    background-color: rgb(34, 220, 34);
+    padding: 10px 60px 10px 60px;
+    margin-top: 20px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+}
+
+
+#submit:hover {
+    color: whitesmoke;
+    background-color: orange;
+
+}
